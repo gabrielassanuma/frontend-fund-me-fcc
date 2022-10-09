@@ -3,6 +3,25 @@ body{
   font-family: 'DM Sans', sans-serif;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 80px 20px 80px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 80px 20px 80px;
+}
+
+.text-content {
+  margin-left: 30px;
+}
+
+
+
+
 
 .button {
   align-items: center;
