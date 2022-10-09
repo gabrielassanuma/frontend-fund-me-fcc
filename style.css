@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 body{
   font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
 }
 
 .header {
@@ -18,10 +19,6 @@ body{
 .text-content {
   margin-left: 30px;
 }
-
-
-
-
 
 .button {
   align-items: center;
