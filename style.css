@@ -13,11 +13,12 @@ body{
 .content {
   display: flex;
   justify-content: space-between;
-  margin: 100px 80px 20px 80px;
+  margin: 70px 80px 20px 80px;
 }
 
 .text-content {
   margin-left: 30px;
+  margin-top: -20px;
 }
 
 .button {
@@ -71,6 +72,37 @@ body{
 .button:hover {
   outline: 0;
 }
+
+.footer {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 80px;
+  color: lightgrey;
+  position: fixed;
+  bottom: 0;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.65;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
 
 @media (min-width: 768px) {
   .button {
