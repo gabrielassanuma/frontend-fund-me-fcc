@@ -6,7 +6,7 @@
 </head>
 <header class="header">
   <img src="logo_fundme.png" alt="logo-fundme" width="150">
-  <button class="button" role="button">Connect Wallet</button>
+  <button class="button" role="button" id="connectButton">Connect Wallet</button>
 </header>
 <body>
   <div class="content">
@@ -24,7 +24,13 @@
       For every donation over 50Usd you will <b>receive a HellfireToken</b> that allows you to claim our high definition songs, exclusive
       content of our tour and as soon Hellfire sign our first contract We will deposit 20% of contract
       value on HellfireToken.</p>
-      <button class="button" role="button">FundMe</button>
+      <div class="fund-layout">
+        <div>
+          <label for="ethAmount">ETH Amount</label>
+          <input id="ethAmount" placeholder="0.1"/>
+        </div>
+        <button class="button" role="button" id="fundButton">FundMe</button>
+      </div>
     </div>
   </div>
   <div class="footer">
